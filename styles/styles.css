@@ -32,3 +32,8 @@
     display: flex;
     flex-direction: column;
 }
+
+.personWrapper > article > span {
+    display: inline-block;
+    writing-mode: vertical-rl;
+}
