@@ -27,3 +27,8 @@
     width: 155px;
     height: 255px;
 }
+
+.personWrapper {
+    display: flex;
+    flex-direction: column;
+}
