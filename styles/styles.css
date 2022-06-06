@@ -45,4 +45,15 @@ h3 {
     font-size: 14px;
 }
 
+footer {
+    color: #A9A9A9;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+}
+
+footer > span {
+    text-decoration: underline;
+    font-weight: 700;
 }
