@@ -36,8 +36,13 @@
 .personWrapper > article > span {
     display: inline-block;
     writing-mode: vertical-rl;
+    font-family: 'PT Serif';
 }
 
 h3 { 
     margin-top: 10px;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
 }
