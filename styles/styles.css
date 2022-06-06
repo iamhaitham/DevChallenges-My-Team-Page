@@ -37,3 +37,7 @@
     display: inline-block;
     writing-mode: vertical-rl;
 }
+
+h3 { 
+    margin-top: 10px;
+}
