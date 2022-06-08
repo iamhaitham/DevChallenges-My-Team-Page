@@ -1,3 +1,20 @@
+h1 {
+    font-family: "PT Serif";
+    font-weight: 700;
+}
+
+.font-poppins {
+    font-family: "Poppins";
+}
+
+.font-poppins > h2 {
+    font-weight: 600;
+}
+
+.font-poppins > p {
+    font-weight: 400;
+}
+
 #person1 {
     width: 156px;
     height: 237px;
