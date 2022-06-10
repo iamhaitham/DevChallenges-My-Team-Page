@@ -82,3 +82,23 @@ main {
     column-gap: 15px;
     margin-top: 70px;
 }
+
+@media only screen and (min-width: 500px) {  
+    body {
+        margin-left: 5%;
+    }
+
+    header {
+      display: flex;
+      flex-direction: row;
+    }
+
+    header > h1,
+    header > section {
+        width: 100%;
+    }
+
+    main {
+      grid-template-columns: auto auto auto;
+    }
+}
