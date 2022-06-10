@@ -1,3 +1,5 @@
+window.onresize = () => location.reload();
+
 // #region peopleWrapperSpans
 let peopleWrapperSpans = document.querySelectorAll('.personWrapper > article > span');
 
