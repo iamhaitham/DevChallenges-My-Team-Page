@@ -83,9 +83,13 @@ main {
     margin-top: 70px;
 }
 
-@media only screen and (min-width: 500px) {  
+.marginTop-50_min-width-500 {
+    margin-top: 50px;
+}
+
+@media only screen and (min-width: 501px) {  
     body {
-        margin-left: 5%;
+      margin-left: 5%;
     }
 
     header {
@@ -95,10 +99,22 @@ main {
 
     header > h1,
     header > section {
-        width: 100%;
+      width: 100%;
     }
 
     main {
       grid-template-columns: auto auto auto;
+    }
+
+    .marginTop-50_min-width-500 {
+      margin-top: 0px;
+    }
+
+    .marginTop-50_min-width-501 {
+      margin-top: 50px;
+    }
+
+    .marginTop-75_min-width-501 {
+        margin-top: 75px;
     }
 }
