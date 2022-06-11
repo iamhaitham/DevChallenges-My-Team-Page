@@ -14,6 +14,8 @@ h1 {
 
 .font-poppins > p {
     font-weight: 400;
+    width: 90%;
+    text-align: justify;
 }
 
 #person1 {
@@ -117,4 +119,26 @@ main {
     .marginTop-75_min-width-501 {
         margin-top: 75px;
     }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 999px) {
+    main,
+    h1 {
+        margin-left: 5%;
+    }
+
+    .font-poppins > p {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    main, 
+    h1 {
+        margin-left: 8%;
+    }
+
+    .font-poppins > p {
+        width: 70%;
+    }   
 }
