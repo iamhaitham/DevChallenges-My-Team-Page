@@ -29,3 +29,7 @@ You have to first clone this repository ```git clone https://github.com/iamhaith
 ## Features
 - User story: I can see a page following the given design
 - This application's design strategy is mobile-first 
+
+## Challengers
+- [Ayman Yahia](https://github.com/ayman-yahia)
+- [Hatem Ratrout](https://github.com/hatemratrout)
